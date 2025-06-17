@@ -93,7 +93,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   padding: 2rem;
-  background: #ffe4e1;
+  background: #fce6f5;
 }
 
 .hero-text {
@@ -284,7 +284,7 @@ footer {
 /* services*/
 /* HERO FOR SERVICES PAGE */
 .hero-services {
-  background: #ffe4e1;
+  background:#fce6f5;
   padding: 3rem 1rem;
   text-align: center;
 }
