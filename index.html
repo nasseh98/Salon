@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beauty Bliss</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar">
+  <div class="logo">
+    <img src="images/logo_bliss-removebg-preview.png" alt="Beauty Bliss Logo">
+  </div>
+  <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html" >Contact</a></li>
+  </ul>
+</nav>
+
+
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Welcome to Beauty Bliss</h1>
+      <p>
+       At Beauty Bliss, we believe that beauty is more than skin deep—it’s an experience.
+        Step into our luxurious salon and discover a world of relaxation, rejuvenation, and 
+        personalized care. Whether you’re seeking a fresh hairstyle, a flawless facial, or a 
+        soothing manicure, our expert team is here to pamper you with the finest treatments
+         and attention to detail. Our tranquil, elegant space is designed to help you unwind
+          and feel truly special. From the moment you walk through our doors, your comfort 
+          and confidence are our top priorities. Using high-quality products and professional
+           techniques, we aim to bring out your natural glow and boost your inner radiance. 
+           Your transformation starts here—where beauty meets bliss every single day.
+
+        </p>
+      <a href="contact.html" class="btn">Contact Us</a>
+    </div>
+    <div class="hero-image">
+      <img src="images/ChatGPT Image Jun 17, 2025, 11_36_38 AM.png" alt="Salon Image">
+    </div>
+  </section>
+
+
+
+ 
+
+
+  <!-- Booking Section -->
+<section class="booking">
+  <div>
+      <section class="cta">
+    <h2>Ready to Experience the Bliss?</h2>
+  
+  
+  </section>
+  </div>
+  
+  <div class="booking-grid">
+    <div class="booking-card">
+      <img src="images/barber 2.jpg" alt="Barber Shop">
+      <a href="contact.html" class="btn book">Book Barber Appointment</a>
+    </div>
+    <div class="booking-card">
+      <img src="images/salon.jpg" alt="Salon">
+      <a href="contact.html" class="btn book">Book Salon Appointment</a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Services Section -->
+<!-- Services Section -->
+<section class="services">
+  <h2>Our Services</h2>
+
+  <!-- First Row -->
+  <div class="service-grid small-row">
+    <div class="service">
+      <img src="images/barber 2.jpg" alt=""><p>Barber Shop</p>
+    </div>
+    <div class="service">
+      <img src="images/dreads.jpg" alt=""><p>Dreadlocks</p>
+    </div>
+    <div class="service">
+      <img src="images/cornrows.jpg" alt=""><p>Cornrows</p>
+    </div>
+    <div class="service">
+      <img src="images/braids.jpg" alt=""><p>Braids</p>
+    </div>
+  </div>
+
+  <!-- Spacer / Line -->
+  <hr class="service-divider" />
+
+  <!-- Second Row (larger images) -->
+  <div class="service-grid large-row">
+    <div class="service large">
+      <img src="images/color.jpg" alt=""><p>Hair Coloring</p>
+    </div>
+    <div class="service large">
+      <img src="images/weaves.jpg" alt=""><p>Weaves</p>
+    </div>
+    <div class="service large">
+      <img src="images/makeup.jpg" alt=""><p>Makeup</p>
+    </div>
+    <div class="service large">
+      <img src="images/eyes.jpg" alt=""><p>Eyebrows</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial-list">
+      <div class="testimonial">
+        <img src="images/owner.jpeg" alt="">
+        <p><em>“Amazing experience! The staff are very professional and friendly.”</em></p>
+      </div>
+      <div class="testimonial">
+        <img src="images/owner.jpeg" alt="">
+        <p><em>“I love my new look! Highly recommend their services.”</em></p>
+      </div>
+      <div class="testimonial">
+        <img src="images/owner.jpeg" alt="">
+        <p><em>“A wonderful place to relax and get pampered.”</em></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>Beauty Bliss</h3>
+        <p>Your destination for top-notch beauty and grooming services.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Contact Us</h3>
+        <p>📞 (123) 456-7960</p>
+        <p>📞 (122) 456-7891</p>
+        <p>📧 info@beautybliss.com</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+</script>
